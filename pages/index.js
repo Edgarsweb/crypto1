@@ -27,6 +27,8 @@ export default function Home(props) {
    
     
     <div className={styles.container}>
+
+      
       
       <Head>
         <title>Coinfo Club</title>
@@ -40,10 +42,12 @@ export default function Home(props) {
            <h1>Coinfo Club</h1> <br /><br />
        <h2>The best online platform, where you can find the latest crypto-related news, prices and also buy | sell coins at one place</h2>
         </div>
-
-        <div className='image'>
-          <img src='/blk.png'/>
-        </div>
+        {/* <Image src='/blk.png' width={'100%'} height={'100%'}> */}
+        {/* <div className='image'>
+          // <img src='/blk.png'/>
+        </div> */}
+      {/* </Image> */}
+        
 
      
        
@@ -51,9 +55,9 @@ export default function Home(props) {
       
       <div className='widgets'>
         
-        <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
+        {/* <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
 <coingecko-coin-price-marquee-widget  coin-ids="bitcoin,ethereum,litecoin,ripple" currency="usd" background-color="#080c25" locale="en" font-color="#a6b2ec"></coingecko-coin-price-marquee-widget>
-      
+       */}
       
 
       <iframe width="100%" scrolling="yes"   src="https://cryptopanic.com/widgets/news/?bg_color=142035&amp;font_family=sans&amp;header_bg_color=3071e7&amp;header_text_color=eee&amp;link_color=3071e7&amp;news_feed=trending&amp;posts_limit=10&amp;text_color=eee&amp;title=Latest%20Trending%20News%20of%20Crypto%20World%20in%20Coinfo.club" height="1000px"></iframe>
@@ -63,7 +67,7 @@ export default function Home(props) {
       </div>
 
 
-      <div className='exchange'>
+      {/* <div className='exchange'>
 
       <div className='exchangeText'>       
       <h3>Limitless Crypto Exchange</h3> 
@@ -76,7 +80,7 @@ export default function Home(props) {
     <script defer type='text/javascript' src='https://changenow.io/embeds/exchange-widget/v2/stepper-connector.js'></script>
         </div>
 
-      </div> 
+      </div>  */}
 
       
      
