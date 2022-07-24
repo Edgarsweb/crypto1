@@ -101,7 +101,7 @@ export default function Home(props) {
             <th>Symbol</th>
             <th>Price</th>
             <th>Change</th>            
-            {/* <th>Market</th> */}
+            <th>Market</th>
           </tr>          
         </thead>  
         <tbody>
