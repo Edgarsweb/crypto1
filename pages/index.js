@@ -47,10 +47,10 @@ export default function Home(props) {
           // <img src='/blk.png'/>
         </div> */}
       {/* </Image> */}
-      <img
+      {/* <img
                   src={blk.png}
                   style={{width: 400, height: 400}}
-                />
+                /> */}
                
         
 
