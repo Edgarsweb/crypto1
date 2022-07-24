@@ -47,6 +47,11 @@ export default function Home(props) {
           // <img src='/blk.png'/>
         </div> */}
       {/* </Image> */}
+      <img
+                  src={blk.png}
+                  style={{width: 400, height: 400}}
+                />
+               
         
 
      
@@ -113,7 +118,7 @@ export default function Home(props) {
                 />
                 {coin.symbol.toUpperCase()}
               </td>
-              <td>{formatDollar (coin.current_price, 2, 9)}
+              <td>{formatDollar (coin.current_price, 20)}
               </td>
               <td>
                 <span
