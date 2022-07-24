@@ -124,7 +124,7 @@ export default function Home(props) {
                 </span>
               </td>
               
-              {/* <td>{formatDollar (coin.market_cap, 3)}</td> */}
+              <td>{formatDollar (coin.market_cap, 3)}</td>
             </tr>
           ))}
         </tbody>
