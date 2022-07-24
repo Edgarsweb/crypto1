@@ -60,7 +60,7 @@ export default function Home(props) {
        */}
       
 
-      <iframe width="100%" scrolling="yes"   src="https://cryptopanic.com/widgets/news/?bg_color=142035&amp;font_family=sans&amp;header_bg_color=3071e7&amp;header_text_color=eee&amp;link_color=3071e7&amp;news_feed=trending&amp;posts_limit=10&amp;text_color=eee&amp;title=Latest%20Trending%20News%20of%20Crypto%20World%20in%20Coinfo.club" height="1000px"></iframe>
+      <iframe width="100%" scrolling="yes"   src="https://cryptopanic.com/widgets/news/?bg_color=142035&amp;font_family=sans&amp;header_bg_color=3071e7&amp;header_text_color=eee&amp;link_color=3071e7&amp;news_feed=trending&amp;posts_limit=10&amp;text_color=eee&amp;title=Latest%20Trending%20News%20of%20Crypto%20World%20in%20Coinfo.club" height="900px"></iframe>
 
     
 
