@@ -113,7 +113,7 @@ export default function Home(props) {
                 />
                 {coin.symbol.toUpperCase()}
               </td>
-              <td>{formatDollar (coin.current_price, 2)}
+              <td>{formatDollar (coin.current_price, 2, 9)}
               </td>
               <td>
                 <span
