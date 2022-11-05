@@ -24,7 +24,7 @@ h1 {
 h2 {
 
   color: #ccc;
-  font-size: 28px;
+  font-size: 18px;
 }
 
 
@@ -89,29 +89,62 @@ p {
   font-size: 14px;
 }
 
-.header {
+header {
   background-color: #142035!important;
   padding: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
-.header img{
-  max-width: 100%;
+
+header .text {
+  max-width: 600px;
+}
+
+.text h2 {
+  margin-bottom: 20px;
+}
+
+.rateButton {
+  padding: 12px 24px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-decoration: none;
+  background-color: #6a8ef2;
+  color: #fff;
+  border-radius: 7px;
+  
 }
 
 
-
+.news {
+  max-width: 900px;
+  position: relative;
+  margin-top: 500px;
+  margin-bottom: -400px;
+  /* top: 50%; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 
 
 @media (max-width: 1000px) {
   .header {
-    margin: 20px 0px 0px 20px;
-    padding: 0;
+    margin: 20px 0px 20px 20px;
+    padding: 20px;
     flex-direction: column;
+    text-align: center;
     
+    
+  }
+
+  .imgBody {
+    margin-top: 50px;
+  }
+
+  h2 {
+    font-size: 16px;
   }
   
 
@@ -119,7 +152,24 @@ p {
     
     height: 600px;
   }
+
+  .exchanger {
+    
+    padding: 10px 0px 10px 5px ;
+   
+  }
+
+  .news {
+    height: 1000px;
+  }
 }
 
 
+.imgBody {
+  max-width: 600px;
 
+}
+
+.imgBody img {
+  width: 100%;
+}
