@@ -160,6 +160,7 @@ function policy() {
 <p>By phone number: 37493007110</p>
 </li>
 </ul>
+<p><Link href="/">Back to main page</Link> </p>
     </div>
   );
 }
