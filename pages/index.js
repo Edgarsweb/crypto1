@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import bitcoin from '/public/coin.png'
 import CoinGecko from 'coingecko-api/lib/CoinGecko';
 const coinGeckoClient = new CoinGecko();
+import Script from 'next/script'
 
 export default function Home(props) {
   const { data } = props.result;
@@ -28,6 +29,14 @@ export default function Home(props) {
    
     
     <div className={styles.container}>
+
+<Script
+   id="Adsense-id"
+   data-ad-client="ca-pub-7904408176093356"
+   async="true"
+   strategy="beforeInteractive"
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+/>
 
       
       
