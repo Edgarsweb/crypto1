@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 // import coingeckoApi from 'coingecko-api';
 import bitcoin from '/public/coin.png'
@@ -157,6 +158,7 @@ export default function Home(props) {
 
       <footer className='footer'>
       <p>Copyright © 2022  <a href='https://edgarsblog.com/'>Edgarsblog.</a> |  All rights reserved </p> 
+      <p><Link href="/policy">Privacy Policy</Link></p>
       </footer>
      
     </div>

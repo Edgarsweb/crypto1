@@ -124,3 +124,14 @@
     flex-direction: column;
   }
 } */
+
+.policyMain {
+  max-width: 900px;
+  margin: 100px auto;
+  color: #fff;
+  text-align: center;
+}
+
+.policyMain ul li {
+  list-style: none;
+}
