@@ -139,7 +139,7 @@ export default function Home(props) {
         <tbody>
           {data.map(coin => (            <tr key={coin.id}>
               <td>
-                <Image
+                <img
                   src={coin.image}
                   style={{width: 25, height: 25}}
                   alt="coin image"
