@@ -2,10 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 // import coingeckoApi from 'coingecko-api';
+import Script from 'next/script'
 import bitcoin from '/public/coin.png'
 import CoinGecko from 'coingecko-api/lib/CoinGecko';
 const coinGeckoClient = new CoinGecko();
-import Script from 'next/script'
 
 export default function Home(props) {
   const { data } = props.result;
@@ -30,14 +30,6 @@ export default function Home(props) {
     
     <div className={styles.container}>
 
-<Script
-   id="Adsense-id"
-   data-ad-client="ca-pub-7904408176093356"
-   async="true"
-   strategy="beforeInteractive"
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-/>
-
       
       
       <Head>
@@ -54,7 +46,7 @@ export default function Home(props) {
        <a href="#prices" className='rateButton'>Latest rates</a>
         </div>
 
-        {/* <div id="ui">
+        <div id="ui">
   <div class="crystal">
     <div class="crystal_panel top front"></div>
     <div class="crystal_panel top back"></div>
@@ -65,7 +57,7 @@ export default function Home(props) {
     <div class="crystal_panel bottom left"></div>
     <div class="crystal_panel bottom right"></div>
   </div>
-</div> */}
+</div>
      
     <div className='imgBody'>
     <Image
@@ -80,16 +72,22 @@ export default function Home(props) {
   
     
         
-
-     
+    {/* <Script
+   id="Adsense-id"
+   data-ad-client="ca-pub-987************676"
+   async="true"
+   strategy="beforeInteractive"
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+/>
+      */}
        
       </header>
       
       <div className='widgets'>
         
-        {/* <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
+        <Script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js" />
 <coingecko-coin-price-marquee-widget  coin-ids="bitcoin,ethereum,litecoin,ripple" currency="usd" background-color="#080c25" locale="en" font-color="#a6b2ec"></coingecko-coin-price-marquee-widget>
-       */}
+      
       
 
       <iframe width="100%" scrolling="no" className='news'  src="https://cryptopanic.com/widgets/news/?bg_color=142035&amp;font_family=sans&amp;header_bg_color=3071e7&amp;header_text_color=eee&amp;link_color=3071e7&amp;news_feed=trending&amp;posts_limit=10&amp;text_color=eee&amp;title=Latest%20Trending%20News%20of%20Crypto%20World%20in%20Coinfo.club" height="770px" ></iframe>
