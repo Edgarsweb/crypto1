@@ -46,7 +46,7 @@ export default function Home(props) {
        <a href="#prices" className='rateButton'>Latest rates</a>
         </div>
 
-        <div id="ui">
+        {/* <div id="ui">
   <div class="crystal">
     <div class="crystal_panel top front"></div>
     <div class="crystal_panel top back"></div>
@@ -57,7 +57,7 @@ export default function Home(props) {
     <div class="crystal_panel bottom left"></div>
     <div class="crystal_panel bottom right"></div>
   </div>
-</div>
+</div> */}
      
     <div className='imgBody'>
     <Image
@@ -139,7 +139,7 @@ export default function Home(props) {
         <tbody>
           {data.map(coin => (            <tr key={coin.id}>
               <td>
-                <img
+                <Image
                   src={coin.image}
                   style={{width: 25, height: 25}}
                 />
