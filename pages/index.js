@@ -85,8 +85,8 @@ export default function Home(props) {
       
       <div className='widgets'>
         
-        <Script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js" />
-<coingecko-coin-price-marquee-widget  coin-ids="bitcoin,ethereum,litecoin,ripple" currency="usd" backgroundColor="#080c25" locale="en" fontColor="#a6b2ec"></coingecko-coin-price-marquee-widget>
+        {/* <Script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js" />
+<coingecko-coin-price-marquee-widget  coin-ids="bitcoin,ethereum,litecoin,ripple" currency="usd" backgroundColor="#080c25" locale="en" fontColor="#a6b2ec"></coingecko-coin-price-marquee-widget> */}
       
       
 
