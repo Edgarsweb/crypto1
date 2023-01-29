@@ -40,7 +40,7 @@ export default function Home(props) {
         <title>Cryptocurrency platform | Coinfo Club</title>
         <meta name="description" content="The largest online crypto community in the world, where you can find the latest rates of different currencies and crypto" />
         <meta name="keywords" content="crypto, coin, ethereum, bitcoin, investment, usdt, tether" />
-        <Link rel="canonical" href="https://coinfo.site" />
+        <link rel="canonical" href="https://coinfo.site" />
         <link rel="icon" href="/etherum.png" />
       </Head> <br />
       
