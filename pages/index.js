@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import Script from 'next/script'
+
 import styles from '../styles/Home.module.css'
 // import coingeckoApi from 'coingecko-api';
 import bitcoin from '/public/coin.png'
@@ -34,13 +34,7 @@ export default function Home(props) {
       
 
 
-{/* <Script
-   id="Adsense-id"
-   data-ad-client="ca-pub-7904408176093356"
-   async="true"
-   strategy="beforeInteractive"
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-/> */}
+
       <Head>
         <title>Cryptocurrency platform | Coinfo Club</title>
         <meta name="description" content="The largest online crypto community in the world, where you can find the latest rates of different currencies and crypto" />
