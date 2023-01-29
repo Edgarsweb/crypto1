@@ -36,7 +36,7 @@ export default function Home(props) {
 
 
       <Head>
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        
         <title>Cryptocurrency platform | Coinfo Club</title>
         <meta name="description" content="The largest online crypto community in the world, where you can find the latest rates of different currencies and crypto" />
         <meta name="keywords" content="crypto, coin, ethereum, bitcoin, investment, usdt, tether" />
