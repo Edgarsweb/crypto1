@@ -142,6 +142,7 @@ export default function Home(props) {
                 <Image
                   src={coin.image}
                   style={{width: 25, height: 25}}
+                  alt="coin image"
                 />
                 {coin.symbol.toUpperCase()}
               </td>
