@@ -42,15 +42,16 @@ export default function Home(props) {
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
 />
       <Head>
-        <title>Coinfo Club</title>
+        <title>Cryptocurrency platform | Coinfo Club</title>
         <meta name="description" content="The largest online crypto community in the world, where you can find the latest rates of different currencies and crypto" />
-        <meta name="keywords" content="crypto, coin, ethereum, bitcoin, blockchain, investment, crypto news, shib, nft, defi, million, billion, cryptocurrency, usdt, tether, usd" />
+        <meta name="keywords" content="crypto, coin, ethereum, bitcoin, investment, usdt, tether" />
+        <Link rel="canonical" href="https://coinfo.site" />
         <link rel="icon" href="/etherum.png" />
       </Head> <br />
       
       <header className='header'>
         <div className='text'>
-           <h1>Coinfo Club</h1> <br /><br />
+           <h1>Cryptocurrency platform | Coinfo Club</h1> <br /><br />
        <h2>The best online platform, where you can find the latest crypto-related news, prices and also buy | sell coins at one place</h2>
        <a href="#prices" className='rateButton'>Latest rates</a>
         </div>
@@ -145,6 +146,7 @@ export default function Home(props) {
                 <img
                   src={coin.image}
                   style={{width: 25, height: 25}}
+                  alt="coin image"
                 />
                 {coin.symbol.toUpperCase()}
               </td>
