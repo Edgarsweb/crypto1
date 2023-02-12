@@ -149,7 +149,7 @@ export default function Home(props) {
       </table>
 
       <footer className='footer'>
-      <p>Copyright © 2022  <a href='https://edgarsblog.com/'>Edgarsblog.</a> |  All rights reserved </p> 
+      <p>Copyright © 2022  <a href='https://edxweb.com/'>Edxweb.</a> |  All rights reserved </p> 
       <p><Link href="/policy">Privacy Policy</Link></p>
       </footer>
      
